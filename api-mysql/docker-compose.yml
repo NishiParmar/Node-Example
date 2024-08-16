@@ -1,0 +1,40 @@
+version: "3.9"
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: passwd
+    ports:
+      - 3306:3306
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --sql_mode='NO_ENGINE_SUBSTITUTION'
+    volumes:
+      - db:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+  api:
+    restart: always
+    build:
+      context: .
+    env_file:
+     - ./.env
+    environment:
+      DB_USERNAME: root
+      DB_PASSWORD: passwd
+      DB_HOST: db
+      DB_DATABASE: r-new
+      PORT: 4000
+    depends_on:
+      - db
+    ports:
+      - 4000:4000
+    volumes:
+      - ./src:/opt/app/src
+
+volumes:
+  db:

@@ -1,0 +1,9 @@
+id,name,type,parent_id
+1,Opportunity Type,Renewable Generation,
+2,Opportunity Technology,Solar PV,
+3,Project Type,Efficiency,
+4,Project Type,Procurement,
+5,Project Type,Renewable Generation,
+6,Project Technology,Solar PV,
+7,Project Technology,Green Power,
+8,Project Technology,Vehicles,

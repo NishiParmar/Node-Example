@@ -1,0 +1,9 @@
+id,setting_name,business_id,title,value,suffix,type,options
+1,cashDiscountRate,1,Cash discount rate,7,%,text,
+2,finMetric,1,Financial performance metric,irr,$/TCO2,select,"[{""name"": ""Internal Rate of Return"", ""value"": ""irr""}, {""name"": ""Payback in Years"", ""value"": ""payback""}, {""name"": ""Net Present Value"", ""value"": ""npv""}]"
+3,baseLineYear,1,Base Line Year,2023-04-09,,text,
+4,targetYear,1,Target Year,2034,,text,
+5,target,1,Target,10,%,text,
+6,carbonOffsetPrice,1,Cost of Carbon,7,$/TCO2,text,
+7,dashboards,1,Dashboards,"{""profile"": {""id"": 13, ""name"": ""Profile"", ""height"": ""1100px""}}",,text,
+8,mappings,1,Flow Mappings,"{""ID"": ""id"",""Category"": ""category"",""Site"": ""site_name"", ""Assets"": ""asset_name"", ""Value"": ""value"", ""Cost"": ""cost"",""Month"": ""month"", ""Year"": ""year"", ""Emission Source Name"": ""source_name"", ""Emission Source Class"": ""source_class"", ""Value Unit"": ""value_unit"",""Estimate"": ""estimate"",""Date Type"": ""date_type"",""Year Type"": ""year_type""}",,text,

@@ -1,0 +1,10 @@
+id,business_id,name,class,sub_class,unit_id,preferred_unit,emission_id
+1,1,Electricity,Australia,On site,1,2,1
+2,1,LPG,Transport,On Site,5,5,2
+3,1,Petrol,Transport,,5,5,3
+4,1,General Waste,Waste,,12,14,4
+5,1,Comingled Recycling Waste,Waste,,12,14,5
+6,1,Paper and Cardboard,Waste,,12,14,6
+7,1,Green Waste,Waste,,12,14,7
+8,1,Electricity Peak,Australia,On site,1,2,8
+9,1,Electricity Off-peak,Australia,On site,1,2,9

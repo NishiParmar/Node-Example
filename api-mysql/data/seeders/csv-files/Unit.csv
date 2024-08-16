@@ -1,0 +1,15 @@
+id,name,is_base
+1,Wh,1
+2,kWh,0
+3,MWh,0
+4,GWh,0
+5,L,1
+6,kL,0
+7,ML,0
+8,J,1
+9,kJ,0
+10,MJ,0
+11,GJ,0
+12,g,1
+13,kg,0
+14,tonne,0

@@ -1,0 +1,5 @@
+id,name,contract_id,resource_id,location_id
+1,ABF Elec,1,1,4
+2,ABF LPG,2,2,4
+3,ABF Waste,3,4,4
+4,Darwin Elec,1,1,5

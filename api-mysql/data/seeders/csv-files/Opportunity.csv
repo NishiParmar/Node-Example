@@ -1,0 +1,16 @@
+id,parent_id,name,business_id,location_id,site_id,description
+1,,Development,1,4,,New infill developments - generic
+2,,New acquisitions,1,4,,New tourist site acquisitions - generic
+3,,Grid greening,1,4,,emissions reduction in the national grid
+4,,ABF Pool Heating,1,4,1,Pool heating electrification
+5,,ABF EV Transition,1,4,2,EV Ute
+6,,ABF Waste,1,4,2,Waste segregation
+7,,ABF Lighting Upgrade,1,4,2,LED lighting
+8,,Darwin Hot Water,1,5,3,Heat pump: attrition
+9,,Darwin HVAC,1,5,3,Aircon upgrade & controls
+10,,Darwin Solar PV,1,5,3,29.2kW Solar PV
+11,,Darwin Lighting,1,5,3,LED lighting & sensors
+12,,ABF Standard Lighting,1,4,2,LED lighting
+13,,Darwin Standard Lighting,1,5,3,LED lighting & sensors
+14,,Port Augusta Solar PV,1,4,4,Completed project
+15,,Lake Bonney Solar PV,1,5,5,Completed project

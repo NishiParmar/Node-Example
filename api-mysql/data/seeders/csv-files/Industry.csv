@@ -1,0 +1,4 @@
+id,name,industryDesc,parent_industry
+1,Accommodation,"Hotels, Motels, Resorts, Caravan Parks, Camp Grounds",
+2,Residential Property Operators,Residential Property Rentals and Leasing,
+3,Non-Residentail Property Operators,Commerical Property Rentals and Leasing,
